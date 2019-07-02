@@ -27,6 +27,9 @@ public class User implements Serializable, Parcelable
     @SerializedName("email")
     @Expose
     private String email;
+    @SerializedName("password")
+    @Expose
+    private String password;
     @SerializedName("created")
     @Expose
     private String created;
@@ -57,6 +60,7 @@ public class User implements Serializable, Parcelable
         this.name = ((String) in.readValue((String.class.getClassLoader())));
         this.username = ((String) in.readValue((String.class.getClassLoader())));
         this.email = ((String) in.readValue((String.class.getClassLoader())));
+        this.password = ((String) in.readValue((String.class.getClassLoader())));
         this.created = ((String) in.readValue((String.class.getClassLoader())));
         this.v = ((Integer) in.readValue((Integer.class.getClassLoader())));
     }
@@ -64,10 +68,11 @@ public class User implements Serializable, Parcelable
     public User() {
     }
 
-    public User(String name, String username, String email) {
+    public User(String name, String username, String email, String password) {
         this.name = name;
         this.username = username;
         this.email = email;
+        this.password = password;
     }
 
     public List<Object> getNotes() {
@@ -110,6 +115,14 @@ public class User implements Serializable, Parcelable
         this.email = email;
     }
 
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
     public String getCreated() {
         return created;
     }
@@ -132,6 +145,7 @@ public class User implements Serializable, Parcelable
         dest.writeValue(name);
         dest.writeValue(username);
         dest.writeValue(email);
+        dest.writeValue(password);
         dest.writeValue(created);
         dest.writeValue(v);
     }

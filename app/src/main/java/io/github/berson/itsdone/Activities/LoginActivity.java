@@ -34,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
 
         UserToLogin user = new UserToLogin("guilherme", "12345678");
 
-//        doLogin(user);
+        doLogin(user);
         createUser();
     }
 
@@ -58,7 +58,8 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void createUser() {
-        User userzinhu = new User("Mewthow", "mew", "12345678");
+        User userzinhu = new User("Mewthow", "mew", "mew@gmail.com","12345678");
+
         Call<UserCreatted> call = RetrofitInit.getBlank().createUser(userzinhu);
         call.enqueue(new Callback<UserCreatted>() {
             @Override
