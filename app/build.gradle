@@ -1,0 +1,97 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "io.github.berson.itsdone"
+        minSdkVersion 22
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.firebase:firebase-messaging:19.0.1'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.google.android.material:material:1.0.0'
+    //implementation 'com.google.firebase:firebase-perf:16.2.5'
+    // circular
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+    //mask
+    implementation 'org.fabiomsr:moneytextview:1.1.0'
+    //custom floatButton
+    implementation 'com.robertlevonyan.view:CustomFloatingActionButton:2.1.1'
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    // retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.13.1'
+    //retrofit JSON
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    //    // Camera
+    implementation 'com.karumi:dexter:5.0.0'
+    //Socket
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'io.socket:socket.io-client:1.0.0', {
+        exclude group: 'org.json', module: 'json'
+    }
+
+
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.0'
+    //compress image
+    implementation 'id.zelory:compressor:2.1.0'
+    // barcode reader library
+    implementation 'me.dm7.barcodescanner:zxing:1.9'
+    implementation 'pl.bclogic:pulsator4droid:1.0.3'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    //fierbase
+    implementation 'com.firebase:firebase-jobdispatcher:0.8.5'
+    implementation 'com.airbnb.android:lottie:2.8.0'
+    //firebase
+    implementation 'com.google.firebase:firebase-core:17.0.0'
+    //lootie
+    implementation 'com.airbnb.android:lottie:3.0.0-beta1'
+    implementation "com.google.android.gms:play-services-auth:17.0.0"
+    //floatbutton
+    implementation 'com.getbase:floatingactionbutton:1.10.1'
+
+    implementation 'com.android.support:design:28.0.0'
+
+    //floatting button
+
+    implementation 'com.google.firebase:firebase-config:18.0.0'
+    implementation('com.crashlytics.sdk.android:crashlytics:2.9.1')
+    implementation 'com.google.android.gms:play-services-vision:18.0.0'
+
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
+    implementation 'me.drakeet.materialdialog:library:1.2.2'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'org.jetbrains:annotations:15.0'
+    //apache lang
+    //implementation 'org.apache.commons:commons-lang3:3.6'
+    implementation 'org.apache.commons:commons-text:1.6'
+}
