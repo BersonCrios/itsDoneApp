@@ -4,6 +4,8 @@ import android.app.Application;
 import android.content.Context;
 import android.os.StrictMode;
 
+import com.jakewharton.threetenabp.AndroidThreeTen;
+
 import io.github.berson.itsdone.Utils.CustomSharedPreference;
 
 public class App extends Application {
@@ -17,6 +19,7 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
         instance = this;
+        AndroidThreeTen.init(this);
         mContext = getApplicationContext();
         CustomSharedPreference.init(this);
         StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();

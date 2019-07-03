@@ -19,14 +19,11 @@ public class CustomSharedPreference {
     public static void clearData(){
         mSharedPref.edit().remove("token").apply();
     }
+
     public static void clearSharedPreferences(){
         mSharedPref.edit().clear().commit();
     }
 
-
-    public static void clearPw(){
-        mSharedPref.edit().putString("PASSWORD","").apply();
-    }
 
     public static void setToken(String value){
         mSharedPref.edit().putString("token",value).apply();

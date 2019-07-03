@@ -3,14 +3,15 @@ package io.github.berson.itsdone.Activities;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Dialog;
+import io.github.berson.itsdone.Application.App;
+
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.google.android.material.textfield.TextInputEditText;
 
 import java.util.Objects;
 
@@ -27,50 +28,59 @@ import retrofit2.Response;
 
 public class LoginActivity extends AppCompatActivity {
 
+    private TextInputEditText usuarioEt, senhaEt;
+    private TextView novaContaTv;
+    private Button entrarBtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_login);
 
-        UserToLogin user = new UserToLogin("guilherme", "12345678");
-
-        doLogin(user);
-        createUser();
+        widgets();
     }
 
 
+    private void widgets(){
+        usuarioEt = findViewById(R.id.usuarioEt);
+        senhaEt = findViewById(R.id.senhaEt);
+        novaContaTv = findViewById(R.id.novaContaTv);
+        entrarBtn = findViewById(R.id.entrarBtn);
+
+        logar();
+        vaiParaCadastro();
+    }
+
+    private void vaiParaCadastro() {
+        novaContaTv.setOnClickListener(v ->{
+            Intent i = new Intent(this, CreateUserActivity.class);
+            startActivity(i);
+        });
+    }
+
+    private void logar() {
+        entrarBtn.setOnClickListener(v ->{
+            UserToLogin user = new UserToLogin();
+            user.setUsername(usuarioEt.getText().toString());
+            user.setPassword(senhaEt.getText().toString());
+            doLogin(user);
+        });
+    }
+
 
     public void doLogin(UserToLogin userzin) {
-        Call<UserLogged> call = RetrofitInit.getBlank().doLogin(userzin);
+        Call<UserLogged> call = RetrofitInit.getService().doLogin(userzin);
         call.enqueue(new Callback<UserLogged>() {
             @Override
             public void onResponse(@NonNull Call<UserLogged> call, @NonNull Response<UserLogged> response) {
-                assert response.body() != null;
-                Log.e("Logadooo", response.body().getToken());
-                CustomSharedPreference.setToken(response.body().getToken());
+                if (response.isSuccessful()){
+                    Log.e("Logadooo", response.body().getToken());
+                    CustomSharedPreference.setToken(response.body().getToken());
+                }
             }
 
             @Override
             public void onFailure(@NonNull Call<UserLogged> call, Throwable t) {
-                Log.e("erro", t.getMessage());
-            }
-        });
-    }
-
-    public void createUser() {
-        User userzinhu = new User("Mewthow", "mew", "mew@gmail.com","12345678");
-
-        Call<UserCreatted> call = RetrofitInit.getBlank().createUser(userzinhu);
-        call.enqueue(new Callback<UserCreatted>() {
-            @Override
-            public void onResponse(@NonNull Call<UserCreatted> call, @NonNull Response<UserCreatted> response) {
-                assert response.body() != null;
-                Log.e("User ae", response.body()+"");
-
-            }
-
-            @Override
-            public void onFailure(@NonNull Call<UserCreatted> call, Throwable t) {
                 Log.e("erro", t.getMessage());
             }
         });

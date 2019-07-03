@@ -36,6 +36,10 @@
         "source": "/home/berson/.gradle/caches/transforms-2/files-2.1/3782ce24e9cd17a44cf05eaee5d50a9f/appcompat-1.0.2/res/layout/abc_action_mode_bar.xml"
     },
     {
+        "merged": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/build/intermediates/res/merged/debug/layout_layout_create_user.xml.flat",
+        "source": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/res/layout/layout_create_user.xml"
+    },
+    {
         "merged": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/build/intermediates/res/merged/debug/layout_design_navigation_item_separator.xml.flat",
         "source": "/home/berson/.gradle/caches/transforms-2/files-2.1/40617b0e6026e4e06c950696baf90aae/material-1.0.0/res/layout/design_navigation_item_separator.xml"
     },

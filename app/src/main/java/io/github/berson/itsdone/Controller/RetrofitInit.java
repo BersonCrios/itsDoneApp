@@ -20,13 +20,13 @@ public class RetrofitInit {
             httpClient.readTimeout(Constants.CONNECT_TIMEOUT, TimeUnit.MINUTES);
             httpClient.callTimeout(Constants.CONNECT_TIMEOUT, TimeUnit.MINUTES);
             httpClient.writeTimeout(Constants.CONNECT_TIMEOUT, TimeUnit.MINUTES);
-//            httpClient.addInterceptor(chain -> {
-//                Request request = chain.request()
-//                        .newBuilder()
-//                        .addHeader("Authorization", CustomSharedPreference.getToken())
-//                        .build();
-//                return chain.proceed(request);
-//            });
+            httpClient.addInterceptor(chain -> {
+                Request request = chain.request()
+                        .newBuilder()
+                        .addHeader("Authorization", CustomSharedPreference.getToken())
+                        .build();
+                return chain.proceed(request);
+            });
 
             retrofit= new Retrofit.Builder()
                     .baseUrl(Constants.URL_API)
@@ -37,7 +37,7 @@ public class RetrofitInit {
         return retrofit;
     }
 
-    public static NotesServices getBlank() {
+    public static NotesServices getService() {
         return getNotes().create(NotesServices.class);
     }
 }
