@@ -57,7 +57,7 @@ public class CreateUserActivity extends AppCompatActivity {
             @Override
             public void onResponse(@NonNull Call<UserCreatted> call, @NonNull Response<UserCreatted> response) {
                 if (response.isSuccessful()){
-                    Log.e("User ae", response.body().getUser()+"");
+                    Log.e("User ae", response.body().getUser().getName()+"");
                     Intent i = new Intent(CreateUserActivity.this, LoginActivity.class);
                     startActivity(i);
                     finish();

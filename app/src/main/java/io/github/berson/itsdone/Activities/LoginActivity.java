@@ -10,14 +10,11 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
 
-import java.util.Objects;
-
 import io.github.berson.itsdone.Controller.RetrofitInit;
-import io.github.berson.itsdone.Models.UserCreatted.User;
-import io.github.berson.itsdone.Models.UserCreatted.UserCreatted;
 import io.github.berson.itsdone.Models.UserLogged;
 import io.github.berson.itsdone.Models.UserToLogin;
 import io.github.berson.itsdone.R;
@@ -76,6 +73,12 @@ public class LoginActivity extends AppCompatActivity {
                 if (response.isSuccessful()){
                     Log.e("Logadooo", response.body().getToken());
                     CustomSharedPreference.setToken(response.body().getToken());
+                    Intent i = new Intent(LoginActivity.this, NotesActivity.class);
+                    startActivity(i);
+                    finish();
+                }
+                else {
+                    Toast.makeText(LoginActivity.this, "Usuário ou senha inválidos!", Toast.LENGTH_LONG).show();
                 }
             }
 

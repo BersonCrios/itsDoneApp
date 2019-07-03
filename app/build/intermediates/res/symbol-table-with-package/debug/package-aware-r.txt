@@ -1292,6 +1292,7 @@ id bottom
 id buttonLayout
 id buttonPanel
 id cancel_action
+id cardNote
 id center
 id centerHorizontal
 id centerVertical
@@ -1357,6 +1358,7 @@ id guideline12
 id guideline13
 id guideline14
 id guideline15
+id guideline16
 id guideline2
 id guideline3
 id guideline4
@@ -1376,6 +1378,7 @@ id icon_only
 id ifRoom
 id image
 id info
+id insideOperador
 id invisible
 id italic
 id item_touch_helper_previous_elevation
@@ -1404,6 +1407,7 @@ id never
 id nomeEt
 id none
 id normal
+id notesRv
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -1490,6 +1494,7 @@ id textInputLayout
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
+id textTv
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1497,6 +1502,7 @@ id textinput_helper_text
 id time
 id title
 id titleDividerNoCustom
+id titleTv
 id title_template
 id top
 id topPanel
@@ -1583,9 +1589,11 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout item_note
 layout layout_create_user
 layout layout_login
 layout layout_materialdialog
+layout layout_notes
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action

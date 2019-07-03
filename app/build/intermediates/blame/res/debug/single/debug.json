@@ -56,6 +56,10 @@
         "source": "/home/berson/.gradle/caches/transforms-2/files-2.1/3782ce24e9cd17a44cf05eaee5d50a9f/appcompat-1.0.2/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
+        "merged": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/build/intermediates/res/merged/debug/layout_layout_notes.xml.flat",
+        "source": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/res/layout/layout_notes.xml"
+    },
+    {
         "merged": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/build/intermediates/res/merged/debug/layout_design_navigation_item_header.xml.flat",
         "source": "/home/berson/.gradle/caches/transforms-2/files-2.1/40617b0e6026e4e06c950696baf90aae/material-1.0.0/res/layout/design_navigation_item_header.xml"
     },
@@ -158,6 +162,10 @@
     {
         "merged": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat",
         "source": "/home/berson/.gradle/caches/transforms-2/files-2.1/e6403649940cf83439c3c303fa89effb/core-1.0.1/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/build/intermediates/res/merged/debug/layout_item_note.xml.flat",
+        "source": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/res/layout/item_note.xml"
     },
     {
         "merged": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view.xml.flat",

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-28:12
 MERGED from [com.robertlevonyan.view:CustomFloatingActionButton:2.1.1] /home/berson/.gradle/caches/transforms-2/files-2.1/110d536b1afe0e90e2bf5daf5b7bde56/jetified-CustomFloatingActionButton-2.1.1/AndroidManifest.xml:2:1-17:12
 MERGED from [com.karumi:dexter:5.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/4652abc9855cad55819751276f21c809/jetified-dexter-5.0.0/AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.material:material:1.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/40617b0e6026e4e06c950696baf90aae/material-1.0.0/AndroidManifest.xml:17:1-24:12
@@ -88,20 +88,20 @@ MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /home/berson/.gradle/caches
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] /home/berson/.gradle/caches/transforms-2/files-2.1/5909430df684c3cbfc0726ed3314c419/crashlytics-core-2.6.1/AndroidManifest.xml:45:1-56:12
 MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /home/berson/.gradle/caches/transforms-2/files-2.1/f479fffccb1af167cd1833dc3791c473/jetified-answers-1.4.1/AndroidManifest.xml:2:1-13:12
 MERGED from [io.fabric.sdk.android:fabric:1.4.2] /home/berson/.gradle/caches/transforms-2/files-2.1/371a4da9355b0e7068b7964f6509c0db/fabric-1.4.2/AndroidManifest.xml:22:1-33:12
-INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-28:12
+INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml
 		INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml
-		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-27:12
+		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml
-		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-27:12
+		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:1-28:12
 		INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:2:11-69
@@ -148,7 +148,7 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.0.0] /h
 	android:name
 		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:8:5-25:19
+ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:8:5-26:19
 MERGED from [com.robertlevonyan.view:CustomFloatingActionButton:2.1.1] /home/berson/.gradle/caches/transforms-2/files-2.1/110d536b1afe0e90e2bf5daf5b7bde56/jetified-CustomFloatingActionButton-2.1.1/AndroidManifest.xml:11:5-15:19
 MERGED from [com.robertlevonyan.view:CustomFloatingActionButton:2.1.1] /home/berson/.gradle/caches/transforms-2/files-2.1/110d536b1afe0e90e2bf5daf5b7bde56/jetified-CustomFloatingActionButton-2.1.1/AndroidManifest.xml:11:5-15:19
 MERGED from [com.karumi:dexter:5.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/4652abc9855cad55819751276f21c809/jetified-dexter-5.0.0/AndroidManifest.xml:26:5-30:19
@@ -259,28 +259,32 @@ MERGED from [io.fabric.sdk.android:fabric:1.4.2] /home/berson/.gradle/caches/tra
 		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:15:9-40
 	android:name
 		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:9:9-40
+activity#io.github.berson.itsdone.Activities.NotesActivity
+ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:16:9-71
+	android:name
+		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:16:19-59
 activity#io.github.berson.itsdone.Activities.CreateUserActivity
-ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:16:9-76
+ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:17:9-67
 	android:name
-		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:16:19-64
+		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:17:19-64
 activity#io.github.berson.itsdone.Activities.LoginActivity
-ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:17:9-62
+ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:18:9-62
 	android:name
-		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:17:19-59
+		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:18:19-59
 activity#io.github.berson.itsdone.Activities.MainActivity
-ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:18:9-24:20
+ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:18:19-58
+		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:19:19-58
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:23:27-74
 uses-sdk
 INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml
