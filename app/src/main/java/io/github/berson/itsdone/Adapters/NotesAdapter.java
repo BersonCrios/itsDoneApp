@@ -12,6 +12,7 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
+import io.github.berson.itsdone.Listeners.OnNotesClickListener;
 import io.github.berson.itsdone.Models.Notes.Nota;
 import io.github.berson.itsdone.R;
 
@@ -19,10 +20,13 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.ViewHolder> 
 
     private ArrayList<Nota> notes;
     private Context mContext;
+    private final OnNotesClickListener listener;
 
-    public NotesAdapter(Context mContext, ArrayList<Nota> notes) {
+
+    public NotesAdapter(Context mContext, ArrayList<Nota> notes, OnNotesClickListener listener) {
         this.mContext = mContext;
         this.notes = notes;
+        this.listener = listener;
         Log.e("notes", notes.toString());
     }
 
@@ -38,6 +42,7 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.ViewHolder> 
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.textTv.setText(notes.get(position).getText());
         holder.titleTv.setText(notes.get(position).getTitle());
+        holder.lm.setOnClickListener(v -> listener.onItemClick(notes.get(position)));
     }
 
     @Override

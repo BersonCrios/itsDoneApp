@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.getbase.floatingactionbutton.FloatingActionButton;
 
@@ -66,7 +67,10 @@ public class NotesActivity extends AppCompatActivity {
                 if (response.isSuccessful()){
                 Log.e("notas", response.body().getNotas()+"");
                 notas.addAll(response.body().getNotas());
-                adapterNotes = new NotesAdapter(NotesActivity.this, notas);
+                adapterNotes = new NotesAdapter(NotesActivity.this, notas, item -> {
+                    Log.e("NOta", item.getTitle());
+                    Toast.makeText(NotesActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
+                });
                 notesRv.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
                 notesRv.setAdapter(adapterNotes);
                 }
