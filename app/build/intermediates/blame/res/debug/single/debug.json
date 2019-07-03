@@ -336,6 +336,10 @@
         "source": "/home/berson/.gradle/caches/transforms-2/files-2.1/40617b0e6026e4e06c950696baf90aae/material-1.0.0/res/layout/design_text_input_password_icon.xml"
     },
     {
+        "merged": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/build/intermediates/res/merged/debug/layout_layout_create_note.xml.flat",
+        "source": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/res/layout/layout_create_note.xml"
+    },
+    {
         "merged": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
         "source": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/res/drawable/ic_launcher_background.xml"
     },

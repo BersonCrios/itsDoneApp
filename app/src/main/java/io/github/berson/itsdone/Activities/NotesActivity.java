@@ -9,6 +9,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
+
+import com.getbase.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 
@@ -26,6 +29,9 @@ public class NotesActivity extends AppCompatActivity {
     private RecyclerView notesRv;
     private ArrayList<Nota> notas = new ArrayList<>();
     private NotesAdapter adapterNotes;
+
+    private Button novaNotaBtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +44,17 @@ public class NotesActivity extends AppCompatActivity {
 
     private void widgets() {
         notesRv = findViewById(R.id.notesRv);
+        novaNotaBtn = findViewById(R.id.novaNotaBtn);
+
+        vaiParaNovaNota();
+    }
+
+    private void vaiParaNovaNota() {
+        novaNotaBtn.setOnClickListener(v->{
+            Intent i = new Intent(NotesActivity.this, CreateNoteActivity.class);
+            startActivity(i);
+            finish();
+        });
     }
 
 

@@ -31,6 +31,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="io.github.berson.itsdone.Activities.CreateNoteActivity" />
         <activity android:name="io.github.berson.itsdone.Activities.NotesActivity" />
         <activity android:name="io.github.berson.itsdone.Activities.CreateUserActivity" />
         <activity android:name="io.github.berson.itsdone.Activities.LoginActivity" />

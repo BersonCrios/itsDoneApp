@@ -1,5 +1,7 @@
 package io.github.berson.itsdone.Services;
 
+import io.github.berson.itsdone.Models.NoteCreate.NotesCreate;
+import io.github.berson.itsdone.Models.NoteCreatted.NoteCreatted;
 import io.github.berson.itsdone.Models.Notes.Nota;
 import io.github.berson.itsdone.Models.Notes.Notes;
 import io.github.berson.itsdone.Models.UserCreatted.User;
@@ -24,4 +26,9 @@ public interface NotesServices {
     @Headers("Content-Type: application/json")
     @GET("notes/")
     Call<Notes> listNotes();
+
+    @Headers("Content-Type: application/json")
+    @POST("notes/create")
+    Call<NoteCreatted> createNote(@Body NotesCreate note);
+
 }
