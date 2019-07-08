@@ -93,7 +93,7 @@ public class NotesActivity extends AppCompatActivity {
             @Override
             public void onResponse(@NonNull Call<JsonObject> call, @NonNull Response<JsonObject> response) {
                 if (response.isSuccessful()){
-                    usuarioTv.setText(response.body().get("username").toString().trim().replace("\"", ""));
+                    usuarioTv.setText(response.body().get("username").toString().trim().replace("\"", "").toUpperCase());
                 }
             }
 

@@ -1246,6 +1246,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable round
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -1298,6 +1299,7 @@ id buttonLayout
 id buttonPanel
 id cancel_action
 id cardNote
+id cardView
 id center
 id centerHorizontal
 id centerVertical
@@ -1375,13 +1377,16 @@ id guideline23
 id guideline24
 id guideline25
 id guideline26
+id guideline27
 id guideline3
+id guideline31
+id guideline32
+id guideline33
 id guideline4
 id guideline5
 id guideline6
 id guideline7
 id guideline8
-id guideline9
 id hardware
 id home
 id homeAsUp
@@ -1392,6 +1397,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView
 id info
 id insideOperador
 id invisible
@@ -1508,14 +1514,13 @@ id terrain
 id text
 id text2
 id textEt
-id textInputLayout
-id textInputLayout2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTv
 id textView
 id textView2
+id textView3
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1683,6 +1688,7 @@ string abc_toolbar_collapse_description
 string action_settings
 string app_name
 string appbar_scrolling_view_behavior
+string aqui_voc_pode_inserir_suas_atividades_ou_anota_es
 string bottom_sheet_behavior
 string cadastro
 string character_counter_content_description

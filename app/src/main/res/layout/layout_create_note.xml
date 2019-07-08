@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/round"
     tools:context=".Activities.CreateNoteActivity">
 
     <androidx.constraintlayout.widget.Guideline
@@ -63,6 +64,7 @@
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
+        android:hint="@string/aqui_voc_pode_inserir_suas_atividades_ou_anota_es"
         app:layout_constraintBottom_toTopOf="@+id/guideline24"
         app:layout_constraintEnd_toStartOf="@+id/guideline21"
         app:layout_constraintStart_toStartOf="@+id/guideline20"
@@ -80,6 +82,8 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="@string/salvar"
+        android:textColor="@color/branquin"
+        android:background="@color/azulScurin"
         app:layout_constraintBottom_toTopOf="@+id/guideline25"
         app:layout_constraintEnd_toStartOf="@+id/guideline21"
         app:layout_constraintStart_toStartOf="@+id/guideline20"
