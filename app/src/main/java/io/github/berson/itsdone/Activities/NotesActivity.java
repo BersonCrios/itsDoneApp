@@ -71,9 +71,9 @@ public class NotesActivity extends AppCompatActivity {
                 if (response.isSuccessful()){
                 Log.e("notas", response.body().getNotas()+"");
                 notas.addAll(response.body().getNotas());
+
                 adapterNotes = new NotesAdapter(NotesActivity.this, notas, item -> {
-                    Log.e("Nota", item.getTitle());
-                    Toast.makeText(NotesActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
+                    Toast.makeText(NotesActivity.this, item.getTitle() + " Encerrada!", Toast.LENGTH_LONG).show();
                     JsonObject obj = new JsonObject();
                     obj.addProperty("is_active", false);
                     encerrarNotes(item.getId(), obj);

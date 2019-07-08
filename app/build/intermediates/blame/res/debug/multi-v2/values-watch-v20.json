@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/berson/Documentos/ItsDone/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "/home/berson/.gradle/caches/transforms-2/files-2.1/930d50d82e8e237f3ab41b04084dad8e/play-services-auth-17.0.0/res/values-watch-v20/values.xml",

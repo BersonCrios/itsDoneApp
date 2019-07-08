@@ -6,16 +6,16 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml
+8-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml
+9-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:5:5-67
-11-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:5:22-64
+11-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:6:5-79
-12-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:6:22-76
+12-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:6:5-79
+12-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:6:22-76
 13
 14    <uses-feature
 14-->[com.google.android.gms:play-services-maps:17.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/d90d0047cdeb5c53cec7f3b243768272/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
@@ -35,101 +35,101 @@
 20-->[com.google.android.gms:play-services-measurement:17.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/f643699430a08747a98a875415195d23/play-services-measurement-17.0.0/AndroidManifest.xml:26:22-107
 21
 22    <application
-22-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:8:5-43:19
+22-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:8:5-43:19
 23        android:name="io.github.berson.itsdone.Application.App"
-23-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:9:9-40
+23-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:9:9-40
 24        android:allowBackup="true"
-24-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:10:9-35
+24-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:10:9-35
 25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 25-->[androidx.core:core:1.0.1] /home/berson/.gradle/caches/transforms-2/files-2.1/e6403649940cf83439c3c303fa89effb/core-1.0.1/AndroidManifest.xml:22:18-86
 26        android:debuggable="true"
 27        android:icon="@drawable/ic_notepad"
-27-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:11:9-44
+27-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:11:9-44
 28        android:label="@string/app_name"
-28-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:12:9-41
+28-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:12:9-41
 29        android:roundIcon="@mipmap/ic_launcher_round"
-29-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:13:9-54
+29-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:13:9-54
 30        android:supportsRtl="true"
-30-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:14:9-35
+30-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:14:9-35
 31        android:testOnly="true"
 32        android:theme="@style/AppTheme" >
-32-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:15:9-40
+32-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:15:9-40
 33        <activity android:name="io.github.berson.itsdone.Activities.PerfilActivity" />
-33-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:16:9-72
-33-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:16:19-60
+33-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:16:9-72
+33-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:16:19-60
 34        <activity
-34-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:17:9-20:61
+34-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:17:9-20:61
 35            android:name="io.github.berson.itsdone.Activities.CreateNoteActivity"
-35-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:18:13-58
+35-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:18:13-58
 36            android:configChanges="orientation"
-36-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:19:13-48
+36-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:19:13-48
 37            android:screenOrientation="portrait" />
-37-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:20:13-49
+37-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:20:13-49
 38        <activity
-38-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:21:9-24:61
+38-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:21:9-24:61
 39            android:name="io.github.berson.itsdone.Activities.NotesActivity"
-39-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:22:13-53
+39-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:22:13-53
 40            android:configChanges="orientation"
-40-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:23:13-48
+40-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:23:13-48
 41            android:screenOrientation="portrait" />
-41-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:24:13-49
+41-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:24:13-49
 42        <activity
-42-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:25:9-28:61
+42-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:25:9-28:61
 43            android:name="io.github.berson.itsdone.Activities.CreateUserActivity"
-43-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:26:13-58
+43-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:26:13-58
 44            android:configChanges="orientation"
-44-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:27:13-48
+44-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:27:13-48
 45            android:screenOrientation="portrait" />
-45-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:28:13-49
+45-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:28:13-49
 46        <activity
-46-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:29:9-32:61
+46-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:29:9-32:61
 47            android:name="io.github.berson.itsdone.Activities.LoginActivity"
-47-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:30:13-53
+47-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:30:13-53
 48            android:configChanges="orientation"
-48-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:31:13-48
+48-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:31:13-48
 49            android:screenOrientation="portrait" />
-49-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:32:13-49
+49-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:32:13-49
 50        <activity
-50-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:33:9-42:20
+50-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:33:9-42:20
 51            android:name="io.github.berson.itsdone.Activities.MainActivity"
-51-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:34:13-52
+51-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:34:13-52
 52            android:configChanges="orientation"
-52-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:35:13-48
+52-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:35:13-48
 53            android:screenOrientation="portrait" >
-53-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:36:13-49
+53-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:36:13-49
 54            <intent-filter>
-54-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:37:13-41:29
+54-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:37:13-41:29
 55                <action android:name="android.intent.action.MAIN" />
-55-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:38:17-69
-55-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:38:25-66
+55-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:38:17-69
+55-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:38:25-66
 56
 57                <category android:name="android.intent.category.LAUNCHER" />
-57-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:40:17-77
-57-->/home/berson/Documentos/ItsDone/app/src/main/AndroidManifest.xml:40:27-74
+57-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:40:17-77
+57-->/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/src/main/AndroidManifest.xml:40:27-74
 58            </intent-filter>
 59        </activity>
 60        <activity
-60-->[com.karumi:dexter:5.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/2f4ac322c8c3ca7b848cdf66c56de276/jetified-dexter-5.0.0/AndroidManifest.xml:27:9-29:72
+60-->[com.karumi:dexter:5.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/4652abc9855cad55819751276f21c809/jetified-dexter-5.0.0/AndroidManifest.xml:27:9-29:72
 61            android:name="com.karumi.dexter.DexterActivity"
-61-->[com.karumi:dexter:5.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/2f4ac322c8c3ca7b848cdf66c56de276/jetified-dexter-5.0.0/AndroidManifest.xml:28:13-60
+61-->[com.karumi:dexter:5.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/4652abc9855cad55819751276f21c809/jetified-dexter-5.0.0/AndroidManifest.xml:28:13-60
 62            android:theme="@style/Dexter.Internal.Theme.Transparent" />
-62-->[com.karumi:dexter:5.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/2f4ac322c8c3ca7b848cdf66c56de276/jetified-dexter-5.0.0/AndroidManifest.xml:29:13-69
+62-->[com.karumi:dexter:5.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/4652abc9855cad55819751276f21c809/jetified-dexter-5.0.0/AndroidManifest.xml:29:13-69
 63        <!--
 64             FirebaseMessagingService performs security checks at runtime,
 65             but set to not exported to explicitly avoid allowing another app to call it.
 66        -->
 67        <service
-67-->[com.google.firebase:firebase-messaging:19.0.1] /home/berson/.gradle/caches/transforms-2/files-2.1/800ffbb604d04ccbd3fcc030fcdddc3d/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:28:9-34:19
+67-->[com.google.firebase:firebase-messaging:19.0.1] /home/berson/.gradle/caches/transforms-2/files-2.1/5adeca8730f3dad06f89bfa33ae6853f/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:28:9-34:19
 68            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-68-->[com.google.firebase:firebase-messaging:19.0.1] /home/berson/.gradle/caches/transforms-2/files-2.1/800ffbb604d04ccbd3fcc030fcdddc3d/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:29:13-82
+68-->[com.google.firebase:firebase-messaging:19.0.1] /home/berson/.gradle/caches/transforms-2/files-2.1/5adeca8730f3dad06f89bfa33ae6853f/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:29:13-82
 69            android:exported="false" >
-69-->[com.google.firebase:firebase-messaging:19.0.1] /home/berson/.gradle/caches/transforms-2/files-2.1/800ffbb604d04ccbd3fcc030fcdddc3d/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:30:13-37
+69-->[com.google.firebase:firebase-messaging:19.0.1] /home/berson/.gradle/caches/transforms-2/files-2.1/5adeca8730f3dad06f89bfa33ae6853f/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:30:13-37
 70            <intent-filter android:priority="-500" >
-70-->[com.google.firebase:firebase-messaging:19.0.1] /home/berson/.gradle/caches/transforms-2/files-2.1/800ffbb604d04ccbd3fcc030fcdddc3d/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:31:13-33:29
-70-->[com.google.firebase:firebase-messaging:19.0.1] /home/berson/.gradle/caches/transforms-2/files-2.1/800ffbb604d04ccbd3fcc030fcdddc3d/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:31:28-51
+70-->[com.google.firebase:firebase-messaging:19.0.1] /home/berson/.gradle/caches/transforms-2/files-2.1/5adeca8730f3dad06f89bfa33ae6853f/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:31:13-33:29
+70-->[com.google.firebase:firebase-messaging:19.0.1] /home/berson/.gradle/caches/transforms-2/files-2.1/5adeca8730f3dad06f89bfa33ae6853f/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:31:28-51
 71                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-71-->[com.google.firebase:firebase-messaging:19.0.1] /home/berson/.gradle/caches/transforms-2/files-2.1/800ffbb604d04ccbd3fcc030fcdddc3d/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:32:17-78
-71-->[com.google.firebase:firebase-messaging:19.0.1] /home/berson/.gradle/caches/transforms-2/files-2.1/800ffbb604d04ccbd3fcc030fcdddc3d/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:32:25-75
+71-->[com.google.firebase:firebase-messaging:19.0.1] /home/berson/.gradle/caches/transforms-2/files-2.1/5adeca8730f3dad06f89bfa33ae6853f/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:32:17-78
+71-->[com.google.firebase:firebase-messaging:19.0.1] /home/berson/.gradle/caches/transforms-2/files-2.1/5adeca8730f3dad06f89bfa33ae6853f/jetified-firebase-messaging-19.0.1/AndroidManifest.xml:32:25-75
 72            </intent-filter>
 73        </service> <!-- Needs to be explicitly declared on P+ -->
 74        <uses-library
@@ -143,18 +143,18 @@
 79             appropriate internal service.
 80        -->
 81        <service
-81-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/berson/.gradle/caches/transforms-2/files-2.1/cf8cb92bfab634c2ec9927b706da2746/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:32:9-39:19
+81-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/berson/.gradle/caches/transforms-2/files-2.1/5012f73c74c6e9d5071b3425f2fc4297/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:32:9-39:19
 82            android:name="com.firebase.jobdispatcher.GooglePlayReceiver"
-82-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/berson/.gradle/caches/transforms-2/files-2.1/cf8cb92bfab634c2ec9927b706da2746/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:33:13-73
+82-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/berson/.gradle/caches/transforms-2/files-2.1/5012f73c74c6e9d5071b3425f2fc4297/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:33:13-73
 83            android:exported="true"
-83-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/berson/.gradle/caches/transforms-2/files-2.1/cf8cb92bfab634c2ec9927b706da2746/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:34:13-36
+83-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/berson/.gradle/caches/transforms-2/files-2.1/5012f73c74c6e9d5071b3425f2fc4297/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:34:13-36
 84            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
-84-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/berson/.gradle/caches/transforms-2/files-2.1/cf8cb92bfab634c2ec9927b706da2746/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:35:13-93
+84-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/berson/.gradle/caches/transforms-2/files-2.1/5012f73c74c6e9d5071b3425f2fc4297/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:35:13-93
 85            <intent-filter>
-85-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/berson/.gradle/caches/transforms-2/files-2.1/cf8cb92bfab634c2ec9927b706da2746/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:36:13-38:29
+85-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/berson/.gradle/caches/transforms-2/files-2.1/5012f73c74c6e9d5071b3425f2fc4297/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:36:13-38:29
 86                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
-86-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/berson/.gradle/caches/transforms-2/files-2.1/cf8cb92bfab634c2ec9927b706da2746/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:37:17-87
-86-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/berson/.gradle/caches/transforms-2/files-2.1/cf8cb92bfab634c2ec9927b706da2746/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:37:25-84
+86-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/berson/.gradle/caches/transforms-2/files-2.1/5012f73c74c6e9d5071b3425f2fc4297/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:37:17-87
+86-->[com.firebase:firebase-jobdispatcher:0.8.5] /home/berson/.gradle/caches/transforms-2/files-2.1/5012f73c74c6e9d5071b3425f2fc4297/jetified-firebase-jobdispatcher-0.8.5/AndroidManifest.xml:37:25-84
 87            </intent-filter>
 88        </service>
 89
@@ -306,11 +306,11 @@
 169-->[com.google.android.gms:play-services-measurement:17.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/f643699430a08747a98a875415195d23/play-services-measurement-17.0.0/AndroidManifest.xml:52:13-69
 170
 171        <meta-data
-171-->[com.google.android.gms:play-services-basement:17.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/d0b97bc42249c2013cbbdb787532bbb2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+171-->[com.google.android.gms:play-services-basement:17.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/c5737f255fd64ca5f3cffc31446b4918/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 172            android:name="com.google.android.gms.version"
-172-->[com.google.android.gms:play-services-basement:17.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/d0b97bc42249c2013cbbdb787532bbb2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+172-->[com.google.android.gms:play-services-basement:17.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/c5737f255fd64ca5f3cffc31446b4918/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
 173            android:value="@integer/google_play_services_version" />
-173-->[com.google.android.gms:play-services-basement:17.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/d0b97bc42249c2013cbbdb787532bbb2/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+173-->[com.google.android.gms:play-services-basement:17.0.0] /home/berson/.gradle/caches/transforms-2/files-2.1/c5737f255fd64ca5f3cffc31446b4918/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
 174    </application>
 175
 176</manifest>

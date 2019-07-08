@@ -1,6 +1,7 @@
 package io.github.berson.itsdone.Adapters;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -43,6 +44,9 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.ViewHolder> 
         holder.textTv.setText(notes.get(position).getText());
         holder.titleTv.setText(notes.get(position).getTitle());
         holder.lm.setOnClickListener(v -> listener.onItemClick(notes.get(position)));
+        if (!notes.get(position).getIsActive()){
+            holder.lm.setBackgroundResource(R.color.destaque);
+        }
     }
 
     @Override
