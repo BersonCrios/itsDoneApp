@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml",
+            "outputFile": "/home/berson/Documentos/ItsDone/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml",
             "map": [
                 {
-                    "source": "/home/berson/.gradle/caches/transforms-2/files-2.1/5adeca8730f3dad06f89bfa33ae6853f/jetified-firebase-messaging-19.0.1/res/values-th/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "205",
-                        "endColumns": "103",
-                        "endOffsets": "308"
-                    },
-                    "to": {
-                        "startLines": "47",
-                        "startColumns": "4",
-                        "startOffsets": "5377",
-                        "endColumns": "107",
-                        "endOffsets": "5480"
-                    }
-                },
-                {
-                    "source": "/home/berson/.gradle/caches/transforms-2/files-2.1/c5737f255fd64ca5f3cffc31446b4918/jetified-play-services-basement-17.0.0/res/values-th/values.xml",
+                    "source": "/home/berson/.gradle/caches/transforms-2/files-2.1/d0b97bc42249c2013cbbdb787532bbb2/jetified-play-services-basement-17.0.0/res/values-th/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -86,6 +69,23 @@
                         "startOffsets": "105,210,308,416,505,607,717,794,872,963,1056,1152,1246,1347,1440,1535,1629,1720,1811,1892,2000,2104,2202,2310,2415,2516,2669,5485",
                         "endColumns": "104,97,107,88,101,109,76,77,90,92,95,93,100,92,94,93,90,90,80,107,103,97,107,104,100,152,94,80",
                         "endOffsets": "205,303,411,500,602,712,789,867,958,1051,1147,1241,1342,1435,1530,1624,1715,1806,1887,1995,2099,2197,2305,2410,2511,2664,2759,5561"
+                    }
+                },
+                {
+                    "source": "/home/berson/.gradle/caches/transforms-2/files-2.1/800ffbb604d04ccbd3fcc030fcdddc3d/jetified-firebase-messaging-19.0.1/res/values-th/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "103",
+                        "endOffsets": "308"
+                    },
+                    "to": {
+                        "startLines": "47",
+                        "startColumns": "4",
+                        "startOffsets": "5377",
+                        "endColumns": "107",
+                        "endOffsets": "5480"
                     }
                 }
             ]

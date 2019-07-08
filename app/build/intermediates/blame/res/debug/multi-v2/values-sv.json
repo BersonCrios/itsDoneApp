@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml",
+            "outputFile": "/home/berson/Documentos/ItsDone/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml",
             "map": [
                 {
-                    "source": "/home/berson/.gradle/caches/transforms-2/files-2.1/5adeca8730f3dad06f89bfa33ae6853f/jetified-firebase-messaging-19.0.1/res/values-sv/values.xml",
+                    "source": "/home/berson/.gradle/caches/transforms-2/files-2.1/800ffbb604d04ccbd3fcc030fcdddc3d/jetified-firebase-messaging-19.0.1/res/values-sv/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/home/berson/.gradle/caches/transforms-2/files-2.1/c5737f255fd64ca5f3cffc31446b4918/jetified-play-services-basement-17.0.0/res/values-sv/values.xml",
+                    "source": "/home/berson/.gradle/caches/transforms-2/files-2.1/d0b97bc42249c2013cbbdb787532bbb2/jetified-play-services-basement-17.0.0/res/values-sv/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

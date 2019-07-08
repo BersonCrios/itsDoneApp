@@ -1,0 +1,7 @@
+#Mon Jul 08 13:18:53 BRT 2019
+base.0=/home/berson/Documentos/ItsDone/app/build/intermediates/dex/release/out/classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/home/berson/Documentos/ItsDone/app/build/intermediates/dex/release/out/classes2.dex

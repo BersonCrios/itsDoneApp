@@ -8,4 +8,6 @@
     <string name="nome">Nome</string>
     <string name="salvar">Salvar</string>
     <string name="novo">Novo</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="ol">Olá</string>
 </resources>

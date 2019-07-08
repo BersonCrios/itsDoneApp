@@ -1,5 +1,7 @@
 package io.github.berson.itsdone.Services;
 
+import com.google.gson.JsonObject;
+
 import io.github.berson.itsdone.Models.NoteCreate.NotesCreate;
 import io.github.berson.itsdone.Models.NoteCreatted.NoteCreatted;
 import io.github.berson.itsdone.Models.Notes.Nota;
@@ -18,6 +20,10 @@ public interface NotesServices {
     @Headers("Content-Type: application/json")
     @POST("user/login")
     Call<UserLogged> doLogin(@Body UserToLogin user);
+
+    @Headers("Content-Type: application/json")
+    @GET("user/")
+    Call<JsonObject> userDatas();
 
     @Headers("Content-Type: application/json")
     @POST("user/create")

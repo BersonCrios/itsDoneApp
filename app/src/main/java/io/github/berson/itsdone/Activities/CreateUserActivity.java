@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
 
@@ -61,6 +62,9 @@ public class CreateUserActivity extends AppCompatActivity {
                     Intent i = new Intent(CreateUserActivity.this, LoginActivity.class);
                     startActivity(i);
                     finish();
+                }
+                else {
+                    Toast.makeText(CreateUserActivity.this, "Erro ao realizar o cadastro", Toast.LENGTH_LONG).show();
                 }
             }
 

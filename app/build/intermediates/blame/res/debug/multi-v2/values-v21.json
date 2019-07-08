@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/berson/Documentos/AndroidProjects/ItsDoneApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/home/berson/Documentos/ItsDone/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/home/berson/.gradle/caches/transforms-2/files-2.1/8e991a80a7c512d32aac390008afb526/media-1.0.0/res/values-v21/values-v21.xml",

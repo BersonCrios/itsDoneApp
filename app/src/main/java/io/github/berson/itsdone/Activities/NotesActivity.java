@@ -10,9 +10,11 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.getbase.floatingactionbutton.FloatingActionButton;
+import com.google.gson.JsonObject;
 
 import java.util.ArrayList;
 
@@ -32,6 +34,7 @@ public class NotesActivity extends AppCompatActivity {
     private NotesAdapter adapterNotes;
 
     private Button novaNotaBtn;
+    private TextView usuarioTv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,8 +49,9 @@ public class NotesActivity extends AppCompatActivity {
     private void widgets() {
         notesRv = findViewById(R.id.notesRv);
         novaNotaBtn = findViewById(R.id.novaNotaBtn);
-
+        usuarioTv = findViewById(R.id.usuarioTv);
         vaiParaNovaNota();
+        getUser();
     }
 
     private void vaiParaNovaNota() {
@@ -78,6 +82,23 @@ public class NotesActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<Notes> call, Throwable t) {
+                Log.e("failure", t.getMessage());
+            }
+        });
+    }
+
+    private void getUser() {
+        Call<JsonObject> call = RetrofitInit.getService().userDatas();
+        call.enqueue(new Callback<JsonObject>() {
+            @Override
+            public void onResponse(@NonNull Call<JsonObject> call, @NonNull Response<JsonObject> response) {
+                if (response.isSuccessful()){
+                    usuarioTv.setText(response.body().get("username").toString().trim().replace("\"", ""));
+                }
+            }
+
+            @Override
+            public void onFailure(Call<JsonObject> call, Throwable t) {
                 Log.e("failure", t.getMessage());
             }
         });

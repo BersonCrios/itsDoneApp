@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".Activities.LoginActivity">
 
     <com.google.android.material.textfield.TextInputLayout
@@ -19,6 +20,7 @@
             android:id="@+id/senhaEt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:inputType="textPassword"
             android:hint="@string/senha" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -62,7 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.65" />
+        app:layout_constraintGuide_percent="0.62" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline7"
@@ -90,7 +92,9 @@
         android:id="@+id/entrarBtn"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
+        android:background="@color/azulScurin"
         android:text="@string/entrar"
+        android:textColor="@color/branquin"
         app:layout_constraintBottom_toTopOf="@+id/guideline6"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline"
@@ -102,6 +106,7 @@
         android:layout_height="0dp"
         android:gravity="center"
         android:text="@string/criar_nova_conta"
+        android:textColor="@color/azulScurin"
         android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"

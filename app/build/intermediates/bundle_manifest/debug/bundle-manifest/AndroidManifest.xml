@@ -24,17 +24,36 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_notepad"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="io.github.berson.itsdone.Activities.CreateNoteActivity" />
-        <activity android:name="io.github.berson.itsdone.Activities.NotesActivity" />
-        <activity android:name="io.github.berson.itsdone.Activities.CreateUserActivity" />
-        <activity android:name="io.github.berson.itsdone.Activities.LoginActivity" />
-        <activity android:name="io.github.berson.itsdone.Activities.MainActivity" >
+        <activity
+            android:name="io.github.berson.itsdone.Activities.CreateNoteActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="io.github.berson.itsdone.Activities.NotesActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="io.github.berson.itsdone.Activities.CreateUserActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="io.github.berson.itsdone.Activities.LoginActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="io.github.berson.itsdone.Activities.MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
