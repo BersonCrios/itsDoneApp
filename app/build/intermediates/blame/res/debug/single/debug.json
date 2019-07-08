@@ -300,6 +300,10 @@
         "source": "/home/berson/Documentos/ItsDone/app/src/main/res/layout/layout_notes.xml"
     },
     {
+        "merged": "/home/berson/Documentos/ItsDone/app/build/intermediates/res/merged/debug/layout_activity_perfil.xml.flat",
+        "source": "/home/berson/Documentos/ItsDone/app/src/main/res/layout/activity_perfil.xml"
+    },
+    {
         "merged": "/home/berson/Documentos/ItsDone/app/build/intermediates/res/merged/debug/layout_abc_search_dropdown_item_icons_2line.xml.flat",
         "source": "/home/berson/.gradle/caches/transforms-2/files-2.1/3782ce24e9cd17a44cf05eaee5d50a9f/appcompat-1.0.2/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },

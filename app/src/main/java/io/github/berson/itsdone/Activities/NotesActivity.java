@@ -72,8 +72,11 @@ public class NotesActivity extends AppCompatActivity {
                 Log.e("notas", response.body().getNotas()+"");
                 notas.addAll(response.body().getNotas());
                 adapterNotes = new NotesAdapter(NotesActivity.this, notas, item -> {
-                    Log.e("NOta", item.getTitle());
+                    Log.e("Nota", item.getTitle());
                     Toast.makeText(NotesActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
+                    JsonObject obj = new JsonObject();
+                    obj.addProperty("is_active", false);
+                    encerrarNotes(item.getId(), obj);
                 });
                 notesRv.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
                 notesRv.setAdapter(adapterNotes);
@@ -82,6 +85,23 @@ public class NotesActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<Notes> call, Throwable t) {
+                Log.e("failure", t.getMessage());
+            }
+        });
+    }
+
+    private void encerrarNotes(String id, JsonObject obj) {
+        Call<JsonObject> call = RetrofitInit.getService().encerrarNotes(id, obj);
+        call.enqueue(new Callback<JsonObject>() {
+            @Override
+            public void onResponse(@NonNull Call<JsonObject> call, @NonNull Response<JsonObject> response) {
+                if (response.isSuccessful()){
+                    Log.e("resp", response.body()+"");
+                }
+            }
+
+            @Override
+            public void onFailure(Call<JsonObject> call, Throwable t) {
                 Log.e("failure", t.getMessage());
             }
         });
